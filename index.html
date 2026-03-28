@@ -502,7 +502,7 @@ function UploadView({ onResults }) {
       const formData = new FormData();
       formData.append('resume', file);
 
-      const res = await fetch('https://your-render-url.onrender.com/analyze', {
+      const res = await fetch('https://resume-analyzer-new.onrender.com/analyze', {
         method: 'POST',
         body: formData,
       });
